@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+/*Cuerpo*/
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e4f0ed;
+    font-family: 'Nunito';
+  }
+  
+.contenedor {
+    margin: 0;
+    padding: 0;
+    border: none;
+    display: flex;
+  }
+
+/*Header*/
+
+
+
+header{
+    width: 100%;
+    height: 50px;
+    font-family: 'Nunito';
+}
+
+.header{
+    width: 100%;
+    padding:1%;
+}
+
+/*Menu*/
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+  }
+  
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+header a{
+    color: black;
+    text-decoration: none;
+}
+
+/*Emoticonos*/
+
+header img{
+    width: 4%;
+    height: auto;
+}
+
+.Inicio{
+    width: 50%;
+    float: left;
+    margin-top: 0.5%;
+    margin-bottom: 1%;
+    height: auto;
+    
+}
+
+.Inicio #contactanos{
+   border-bottom: 2px solid #405f83; 
+}
+
+.iconos{
+    float: right;
+    width: 50%;
+    text-align: right;
+    height: auto;
+  }
+
+    /*Div1*/
+
+.div1{
+        width: 100%;
+        height: auto;
+        background-color: #22a6a4;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+
+.texto{
+        height: auto;
+        width: 50%;
+        text-align:left;
+        color: white;
+        float: left;
+        padding: 5%;
+    }
+
+.foto{
+        width: 45%;
+        height: auto;
+        float: right; 
+        align-items: center;
+        text-align: center;
+    }
+
+.foto img{
+        width: 50%;
+        border-radius: 50%;
+        margin-top: 5%;
+       
+    }
+
+    @media (max-width:900px){
+      .div1{
+        display: flex;
+        flex-direction: column-reverse;
+      }
+
+      .texto, .foto{
+        width: 100%;
+        margin: 1%;
+      }
+    }
+
+.div2{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+
+.contacto{
+    width: 100%;
+    height: auto;
+    float: right;
+    text-align: center;
+}
+
+.contacto1{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 5%;
+}
+
+    
+footer{
+    width: 100%;
+    height: auto;
+    color: white;
+    background-color: black;
+    position: absolute;
+    text-align: center;
+}
+
+footer ul {
+    margin: 0;
+    padding-top: 1%;
+    list-style: none; 
+  }
+  
+footer li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+  footer p{
+    margin-bottom: 1%;
+  }
+
+  footer a {
+    color: #e4f0ed;
+    text-decoration: none;
+  }
+
+  footer #contactanos{
+    border-bottom: solid #5880B8 1px;
+    color: #5880B8;
+  }
