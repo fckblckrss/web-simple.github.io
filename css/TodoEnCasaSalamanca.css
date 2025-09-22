@@ -119,8 +119,8 @@ header img{
 /*Div*/
 
 .section1{
-    width: 100%;
-    height: auto;
+    height: 70vh;
+    padding: 5%;
     margin-top: 0;
     padding: 0;
     display: flex;
@@ -143,6 +143,7 @@ header img{
 /*WhasApp*/
 .mensaje{
     text-align: center;
+    background-color:  #dcf2f8;
 }
 
 .mensaje button{
@@ -240,16 +241,22 @@ header img{
 }
 
 .fotos3 article img{
-    width: 100%;
+    width: 60%;
     height: auto;
     border-radius: 5%;
 }
 
 .texto3{
     width: 50%;
-    text-align: center;
+    text-align: justify;
     float: right;
-    font-size: 20px
+    font-size: 20px;
+    padding: 1%;
+}
+
+.texto3 article{
+    text-align: justify;
+    width: 80%;
 }
 
  h1{
@@ -262,7 +269,7 @@ header img{
 }
 
 .mensaje-section3 button{
-    padding: 3%;
+    padding: 1.5%;
     margin: 2%;
     color: white;
     background-color: green;
@@ -373,7 +380,7 @@ div .disponibilidad{
 }
 
 .video1 video{
-    height: 80vh;
+    height: 50vh;
 }
 
 @media (max-width:600px){
@@ -418,13 +425,12 @@ div .disponibilidad{
     float: right; 
     align-items: center;
     text-align: center;
-    margin-top: 2%;
+    padding: 5%;
 }
 
 .foto img{
-    width: 50%;
+    width: 40%;
     border-radius: 50%;
-    margin-top: 5%;
    
 }
 
@@ -503,8 +509,10 @@ textarea{
 input[type="submit"]{
 height: 30px;
 width: 47%;
-background-color: #405f83;
+background-color: #22a6a4;
 color: white;
+border: none;
+border-radius: 5px;
 }
 
 .contacto{
